@@ -8,6 +8,7 @@ hr{
 }
 :root{
     --primary-color: #7C3AED;
+    --dark-color: #64748b;
 }
 
 /* container */
@@ -51,6 +52,7 @@ hr{
 .list-item-inline{
     display: inline;
 }
+/* Navigation */
 
 .navigation{
     background: var(--primary-color);
@@ -72,4 +74,19 @@ hr{
 }
 .navigation .link-active{
     font-weight: bolder;
+}
+/* 
+header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-color)
 }
