@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -50,4 +50,26 @@ hr{
 
 .list-item-inline{
     display: inline;
+}
+
+.navigation{
+    background: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem ;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .nav-brand{
+    font-weight: bolder;
+
+}
+.navigation .link-active{
+    font-weight: bolder;
 }
